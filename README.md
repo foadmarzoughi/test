@@ -2,7 +2,7 @@
 
 This repository contains a thematic analysis solution for Yabble's coding assessment, focusing on identifying themes and patterns in Walmart customer feedback survey data using advanced NLP techniques.
 
-## 📊 Project Overview
+##  Project Overview
 
 ### What is Thematic Analysis?
 Thematic analysis is a qualitative research method that systematically identifies, analyzes, and reports patterns (themes) within data. In market research, it helps organizations understand customer opinions, sentiments, and experiences by:
@@ -19,7 +19,7 @@ Given customer survey responses about Walmart vs Target, we need to:
 3. Discover what customers love about Walmart
 4. Provide actionable insights for business improvement
 
-## 🗂️ Dataset
+##  Dataset
 
 **Source**: `Data/raw/walmart.csv`
 - **Total Responses**: 253 survey participants
@@ -37,7 +37,7 @@ Given customer survey responses about Walmart vs Target, we need to:
 - **Age Groups**: 45-54 (53), 25-34 (50), 35-44 (43), 18-24 (39), 55-64 (34), 65-74 (27)
 - **State**: Texas (253)
 
-## 🔧 Technical Approach
+##  Technical Approach
 
 ### Methodology: BERTopic for Theme Discovery
 
@@ -49,7 +49,7 @@ Given customer survey responses about Walmart vs Target, we need to:
 
 ### Analysis Pipeline:
 
-> 📊 **Workflow Diagram**: View the complete analysis pipeline in [Excalidraw format](./thematic-analysis-workflow.excalidraw)
+>  **Workflow Diagram**: View the complete analysis pipeline in [Excalidraw format](./thematic-analysis-workflow.excalidraw)
 
 **Detailed Steps:**
 
@@ -76,7 +76,7 @@ Given customer survey responses about Walmart vs Target, we need to:
 
 
 
-## 📈 Key Findings
+##  Key Findings
 
 ### Walmart Complaint Themes (6 Main Topics)
 
@@ -97,7 +97,7 @@ Given customer survey responses about Walmart vs Target, we need to:
 | **0** | 14 | **Store Experience** | Better store feel, atmosphere, real cashiers |
 | **1** | 10 | **Organization & Cleanliness** | More organized, cleaner, helpful employees |
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Environment Setup
 
@@ -136,7 +136,7 @@ jupyter notebook theme-counting.ipynb
 
 3. **View Results**: Interactive visualizations will display topic maps and charts
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 yabble-theme-counting-test/
@@ -151,7 +151,7 @@ yabble-theme-counting-test/
 └── .gitignore                               # Git ignore rules
 ```
 
-## 🎯 Business Insights & Recommendations
+##  Business Insights & Recommendations
 
 ### Priority Action Items for Walmart:
 
@@ -174,7 +174,7 @@ yabble-theme-counting-test/
 - Walmart can compete by focusing on **operational excellence** in these areas
 - Customer service training could significantly impact satisfaction
 
-## 🔬 Technical Notes & Limitations
+##  Technical Notes & Limitations
 
 ### Challenges Encountered:
 - **Small Dataset**: Only 79 responses for Target comparison question
@@ -191,7 +191,7 @@ yabble-theme-counting-test/
 - Representative document analysis for topic coherence
 - Cross-validation with traditional survey analysis methods
 
-## 📚 References & Inspiration
+##  References & Inspiration
 
 - [Sentence Transformers Documentation](https://sbert.net/) - Official documentation for the embedding models used in this analysis
 - [BERTopic Documentation](https://maartengr.github.io/BERTopic/)
@@ -201,7 +201,7 @@ yabble-theme-counting-test/
 - [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) - Original paper behind Sentence Transformers
 - [Excalidraw](https://excalidraw.com/) - Used for creating the workflow diagram visualization
 
-## 🏁 Conclusion
+##  Conclusion
 
 This analysis successfully demonstrates how modern NLP techniques can automate traditional market research tasks while providing deeper insights than manual coding. The BERTopic approach identified actionable themes that align with business priorities and competitive positioning.
 
