@@ -172,3 +172,27 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints (but NOT your notebooks!)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore secret files
+*.env
+
+# Ignore test/coverage output
+.coverage
+.pytest_cache/
