@@ -209,10 +209,4 @@ This analysis successfully demonstrates how modern NLP techniques can automate t
 - ✅ Automated theme discovery with minimal manual intervention
 - ✅ Interpretable results with clear business implications  
 - ✅ Scalable approach for larger datasets
-- ✅ Robust handling of small dataset challenges
-
-**Next Steps**: Scale this approach to larger, multi-geographic datasets and implement real-time theme monitoring for ongoing customer feedback analysis.
-
----
-
-*Developed for Yabble's AI Assessment - Demonstrating human-guided problem solving with AI tools*
+- ✅ Robust handling of small dataset 
